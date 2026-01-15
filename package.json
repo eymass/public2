@@ -3,39 +3,13 @@
   "version": "0.0.1",
   "type": "module",
   "main": "src/index.ts",
-  "license": "ISC",
+  "license": "ISCC",
   "scripts": {
     "init": "pnpm nx pre-init",
     "start-billing-api": "TEST PUBLIC RUN",
     "create-workflow": "make -C workflows poetry-install helm-build"
   },
   "dependencies": {
-    "@cas/billing-types": "workspace:*",
-    "@cas/big-query": "workspace:*",
-    "@cas/cortex-api": "workspace:*",
-    "@cas/source-control-source-control-api-contract": "workspace:*",
-    "@cas/api": "workspace:*",
-    "@cas/cache": "workspace:*",
-    "@cas/feature-flags": "workspace:*",
-    "@cas/jobs": "workspace:*",
-    "@cas/logger": "workspace:*",
-    "@cas/proxy": "workspace:*",
-    "@cas/service-client": "workspace:*",
-    "@cas/source-control-types": "workspace:*",
-    "@tsoa/runtime": "^6.3.0",
-    "@cas/config-manager": "workspace:*",
-    "axios": "^1.7.2"
-  },
-  "devDependencies": {
-    "@cas/error-handling": "workspace:*",
-    "@cas/test-kit-integration": "workspace:*",
-    "@repo/esbuild-bundle": "workspace:*",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/lint-staged-config": "workspace:*",
-    "@types/node": "^20.14.2",
-    "quicktype": "^23.0.170",
-    "typescript": "~5.4.2",
-    "vitest": "*",
-    "nodemon": "^3.1.4"
+  
   }
 }
