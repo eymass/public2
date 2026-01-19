@@ -19,8 +19,6 @@
     "@cas/feature-flags": "workspace:*",
     "@cas/jobs": "workspace:*",
     "@cas/logger": "workspace:*",
-    "@cas/proxy": "workspace:*",
-    "@cas/service-client": "workspace:*",
     "@cas/source-control-types": "workspace:*",
     "@tsoa/runtime": "^6.3.0",
     "@cas/config-manager": "workspace:*",
