@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "type": "module",
   "main": "src/index.ts",
-  "license": "ISC",
   "scripts": {
     "init": "pnpm nx pre-init",
     "start-billing-api": "TEST PUBLIC RUN",
@@ -12,15 +11,12 @@
   "dependencies": {
     "@cas/billing-types": "workspace:*",
     "@cas/big-query": "workspace:*",
-    "@cas/cortex-api": "workspace:*",
     "@cas/source-control-source-control-api-contract": "workspace:*",
     "@cas/api": "workspace:*",
     "@cas/cache": "workspace:*",
     "@cas/feature-flags": "workspace:*",
     "@cas/jobs": "workspace:*",
     "@cas/logger": "workspace:*",
-    "@cas/proxy": "workspace:*",
-    "@cas/service-client": "workspace:*",
     "@cas/source-control-types": "workspace:*",
     "@tsoa/runtime": "^6.3.0",
     "@cas/config-manager": "workspace:*",
