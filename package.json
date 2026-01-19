@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "type": "module",
   "main": "src/index.ts",
-  "license": "ISC",
   "scripts": {
     "init": "pnpm nx pre-init",
     "start-billing-api": "TEST PUBLIC RUN",
