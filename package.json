@@ -12,7 +12,6 @@
   "dependencies": {
     "@cas/billing-types": "workspace:*",
     "@cas/big-query": "workspace:*",
-    "@cas/cortex-api": "workspace:*",
     "@cas/source-control-source-control-api-contract": "workspace:*",
     "@cas/api": "workspace:*",
     "@cas/cache": "workspace:*",
